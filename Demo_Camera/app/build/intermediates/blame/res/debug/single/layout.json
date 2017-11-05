@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listviewlayout.xml",
+        "source": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\src\\main\\res\\layout\\listviewlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\build\\intermediates\\res\\merged\\debug\\layout\\videofullscreen.xml",
+        "source": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\src\\main\\res\\layout\\videofullscreen.xml"
+    }
+]
