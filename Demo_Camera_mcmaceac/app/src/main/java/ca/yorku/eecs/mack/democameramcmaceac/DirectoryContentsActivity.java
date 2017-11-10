@@ -74,8 +74,8 @@ public class DirectoryContentsActivity extends Activity implements AdapterView.O
         textView.setText(s[s.length - 1]);
 
         // create an ImageAdapter and give it the array of filenames and the directory
-        //imageAdapter = new ImageAdapter(this);
-        //imageAdapter.setFilenames(filenames, directory);
+        imageAdapter = new ImageAdapter(this);
+        imageAdapter.setFilenames(filenames, directory);
 
 		/*
          * Determine the display width and height. The column width is calculated so we have three
@@ -87,7 +87,7 @@ public class DirectoryContentsActivity extends Activity implements AdapterView.O
         getWindowManager().getDefaultDisplay().getMetrics(dm);
         int columnWidth = dm.widthPixels < dm.heightPixels ? dm.widthPixels / 3 - 12
                 : dm.heightPixels / 3 - 12;
-        //imageAdapter.setColumnWidth(columnWidth);
+        imageAdapter.setColumnWidth(columnWidth);
         gridView.setColumnWidth(columnWidth);
 
         // give the ImageAdapter to the GridView (and load the images)

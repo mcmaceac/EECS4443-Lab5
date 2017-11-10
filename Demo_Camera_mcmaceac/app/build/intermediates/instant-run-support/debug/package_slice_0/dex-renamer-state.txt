@@ -1,0 +1,4 @@
+#Fri Nov 10 17:09:42 EST 2017
+base.0=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
+renamed.0=classes.dex
+file.0=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

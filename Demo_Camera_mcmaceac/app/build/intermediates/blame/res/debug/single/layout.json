@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/layout/main.xml"
+        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/layout/imagegrid.xml",
-        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/layout/imagegrid.xml"
+        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\layout\\imageviewer.xml",
+        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\layout\\imageviewer.xml"
     },
     {
-        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/layout/listviewlayout.xml",
-        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/layout/listviewlayout.xml"
+        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\layout\\videofullscreen.xml",
+        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\layout\\videofullscreen.xml"
     },
     {
-        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/layout/imageviewer.xml",
-        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/layout/imageviewer.xml"
+        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\layout\\imagegrid.xml",
+        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\layout\\imagegrid.xml"
     },
     {
-        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/layout/videofullscreen.xml",
-        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/layout/videofullscreen.xml"
+        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listviewlayout.xml",
+        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\layout\\listviewlayout.xml"
     }
 ]
