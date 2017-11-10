@@ -1,12 +1,16 @@
 package ca.yorku.eecs.mack.democameramcmaceac;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.GestureDetector;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
@@ -45,6 +49,8 @@ public class ImageViewerActivity extends Activity implements OnTouchListener
 	private ScaleGestureDetector scaleGestureDetector;
 	private GestureDetector gestureDetector;
 	private boolean zoomMode;
+	private final int EMAIL = 1;
+	private final int DELETE = 0;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState)
@@ -293,6 +299,30 @@ public class ImageViewerActivity extends Activity implements OnTouchListener
 			{
 				break;
 			}
+		}
+		return true;
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		super.onCreateOptionsMenu(menu);
+		menu.add(DELETE, DELETE, DELETE, R.string.menu_delete);
+		menu.add(EMAIL, EMAIL, EMAIL, R.string.menu_email);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case EMAIL:
+				Intent intent = new Intent(Intent.ACTION_SEND);
+				intent.setType("application/image");
+				String path = "file://" + directory + File.separator + filenames[index];
+				intent.putExtra(Intent.EXTRA_STREAM, Uri.parse(path));
+				startActivity(Intent.createChooser(intent, "Send Email"));
+				break;
+			case DELETE:
+				break;
 		}
 		return true;
 	}

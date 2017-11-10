@@ -11,6 +11,8 @@
     <string name="button1btext">Next</string>
     <string name="button2text">Record Video</string>
     <string name="imageCountString">(image count)</string>
+    <string name="menu_email">Send</string>
+    <string name="menu_delete">Delete</string>
     <string name="videoCountString">(video count)</string>
     <string name="empty">Loading images &#8230;</string>
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 10 17:17:16 EST 2017
+#Fri Nov 10 18:01:07 EST 2017
 8.set=ANDROID_RESOURCE
 1.base=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\resources-debug.ap_
 1.file=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\camera.png

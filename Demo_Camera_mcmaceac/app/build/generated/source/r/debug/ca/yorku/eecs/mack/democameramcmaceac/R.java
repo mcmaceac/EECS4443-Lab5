@@ -54,8 +54,10 @@ public final class R {
         public static final int hello=0x7f040006;
         public static final int imageCountString=0x7f040007;
         public static final int imageviewtext=0x7f040008;
-        public static final int textViewString=0x7f040009;
-        public static final int videoCountString=0x7f04000a;
-        public static final int videoviewtext=0x7f04000b;
+        public static final int menu_delete=0x7f040009;
+        public static final int menu_email=0x7f04000a;
+        public static final int textViewString=0x7f04000b;
+        public static final int videoCountString=0x7f04000c;
+        public static final int videoviewtext=0x7f04000d;
     }
 }
