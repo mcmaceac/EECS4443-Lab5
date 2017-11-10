@@ -1,10 +1,22 @@
 [
     {
-        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Camera\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-hdpi/camera.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-hdpi/camera.png"
+    },
+    {
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-hdpi/left.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-hdpi/left.png"
+    },
+    {
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-hdpi/videocamera.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-hdpi/videocamera.png"
     },
     {
         "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
         "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-hdpi/right.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-hdpi/right.png"
     }
 ]

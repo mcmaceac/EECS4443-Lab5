@@ -31,13 +31,14 @@
             android:layout_weight="1"
             android:orientation="vertical" >
 
-            <Button
+            <ImageButton
                 android:id="@+id/button1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="2dp"
-                android:text="@string/button1text"
+                android:contentDescription="@string/button1text"
+                android:src="@drawable/camera"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <ImageView
@@ -71,20 +72,22 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
 
-                <Button
+                <ImageButton
                     android:id="@+id/button1a"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/button1atext"
+                    android:src="@drawable/left"
+                    android:contentDescription="@string/button1atext"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button1b"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/button1btext"
+                    android:src="@drawable/right"
+                    android:contentDescription="@string/button1btext"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
         </LinearLayout>
@@ -95,13 +98,14 @@
             android:layout_weight="1"
             android:orientation="vertical" >
 
-            <Button
+            <ImageButton
                 android:id="@+id/button2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="2dp"
-                android:text="@string/button2text"
+                android:contentDescription="@string/button2text"
+                android:src="@drawable/videocamera"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <VideoView
@@ -133,20 +137,22 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
 
-                <Button
+                <ImageButton
                     android:id="@+id/button2a"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/button1atext"
+                    android:src="@drawable/left"
+                    android:contentDescription="@string/button1atext"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button2b"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/button1btext"
+                    android:src="@drawable/right"
+                    android:contentDescription="@string/button1btext"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
         </LinearLayout>

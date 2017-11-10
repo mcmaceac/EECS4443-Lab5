@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -52,8 +53,8 @@ public class DemoCameramcmaceacActivity extends Activity implements OnClickListe
     private static final int VIDEO_VIEWER_MODE = 400;
 
     Uri fileUri;
-    Button imageCameraButton, videoCameraButton;
-    Button imagePrevButton, imageNextButton, videoPrevButton, videoNextButton;
+    ImageButton imageCameraButton, videoCameraButton;
+    ImageButton imagePrevButton, imageNextButton, videoPrevButton, videoNextButton;
     ImageView imageView;
     VideoView videoView;
     File mediaStorageDirectory;
@@ -102,14 +103,14 @@ public class DemoCameramcmaceacActivity extends Activity implements OnClickListe
             getActionBar().hide();
 
         // get references to UI widgets
-        imageCameraButton = (Button)findViewById(R.id.button1);
-        videoCameraButton = (Button)findViewById(R.id.button2);
+        imageCameraButton = (ImageButton)findViewById(R.id.button1);
+        videoCameraButton = (ImageButton)findViewById(R.id.button2);
         imageView = (ImageView)findViewById(R.id.imageView1);
         videoView = (VideoView)findViewById(R.id.videoView1);
-        imagePrevButton = (Button)findViewById(R.id.button1a);
-        imageNextButton = (Button)findViewById(R.id.button1b);
-        videoPrevButton = (Button)findViewById(R.id.button2a);
-        videoNextButton = (Button)findViewById(R.id.button2b);
+        imagePrevButton = (ImageButton)findViewById(R.id.button1a);
+        imageNextButton = (ImageButton)findViewById(R.id.button1b);
+        videoPrevButton = (ImageButton)findViewById(R.id.button2a);
+        videoNextButton = (ImageButton)findViewById(R.id.button2b);
         imageCountView = (TextView)findViewById(R.id.imageCount);
         videoCountView = (TextView)findViewById(R.id.videoCount);
         statusTextView = (TextView)findViewById(R.id.indexandcount);
