@@ -4,6 +4,7 @@
     <string name="hello">Demo_Camera_mcmaceac</string>
     <string name="app_name">Demo_Camera_mcmaceac</string>
     <string name="imageviewtext">(image goes here)</string>
+    <string name="textViewString">(filename)</string>
     <string name="videoviewtext">(video goes here)</string>
     <string name="button1text">Take Picture</string>
     <string name="button1atext">Previous</string>

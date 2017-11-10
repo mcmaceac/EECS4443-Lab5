@@ -177,7 +177,7 @@ public class DemoCameramcmaceacActivity extends Activity implements OnClickListe
             b.putString(DIRECTORY_KEY, mediaStorageDirectory.toString());
 
             // start image viewer activity
-            Intent i = new Intent(getApplicationContext(), ImageListViewerActivity.class);
+            Intent i = new Intent(getApplicationContext(), DirectoryContentsActivity.class);
             i.putExtras(b);
             startActivityForResult(i, IMAGE_VIEWER_MODE);
 

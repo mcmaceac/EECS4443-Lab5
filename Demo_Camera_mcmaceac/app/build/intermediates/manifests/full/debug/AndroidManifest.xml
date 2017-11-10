@@ -29,6 +29,10 @@
         </activity>
         <activity android:name="ca.yorku.eecs.mack.democameramcmaceac.ImageListViewerActivity" >
         </activity>
+        <activity android:name="ca.yorku.eecs.mack.democameramcmaceac.DirectoryContentsActivity" >
+        </activity>
+        <activity android:name="ca.yorku.eecs.mack.democameramcmaceac.ImageViewerActivity" >
+        </activity>
         <activity android:name="ca.yorku.eecs.mack.democameramcmaceac.VideoViewerActivity" >
         </activity>
     </application>

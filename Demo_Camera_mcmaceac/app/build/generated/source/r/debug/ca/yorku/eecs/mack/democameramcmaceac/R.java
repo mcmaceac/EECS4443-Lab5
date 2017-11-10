@@ -18,24 +18,31 @@ public final class R {
         public static final int videocamera=0x7f020004;
     }
     public static final class id {
-        public static final int button1=0x7f050000;
-        public static final int button1a=0x7f050003;
-        public static final int button1b=0x7f050004;
-        public static final int button2=0x7f050005;
-        public static final int button2a=0x7f050008;
-        public static final int button2b=0x7f050009;
-        public static final int imageCount=0x7f050002;
-        public static final int imageView1=0x7f050001;
-        public static final int indexandcount=0x7f05000c;
-        public static final int tableRow=0x7f05000b;
-        public static final int videoCount=0x7f050007;
-        public static final int videoFullScreenView=0x7f05000a;
-        public static final int videoView1=0x7f050006;
+        public static final int button1=0x7f050005;
+        public static final int button1a=0x7f050008;
+        public static final int button1b=0x7f050009;
+        public static final int button2=0x7f05000a;
+        public static final int button2a=0x7f05000d;
+        public static final int button2b=0x7f05000e;
+        public static final int gridview=0x7f050001;
+        public static final int imageCount=0x7f050007;
+        public static final int imageView=0x7f050004;
+        public static final int imageView1=0x7f050006;
+        public static final int imagecontainer=0x7f050003;
+        public static final int indexandcount=0x7f050011;
+        public static final int tableRow=0x7f050010;
+        public static final int textView=0x7f050002;
+        public static final int textview=0x7f050000;
+        public static final int videoCount=0x7f05000c;
+        public static final int videoFullScreenView=0x7f05000f;
+        public static final int videoView1=0x7f05000b;
     }
     public static final class layout {
-        public static final int listviewlayout=0x7f030000;
-        public static final int main=0x7f030001;
-        public static final int videofullscreen=0x7f030002;
+        public static final int imagegrid=0x7f030000;
+        public static final int imageviewer=0x7f030001;
+        public static final int listviewlayout=0x7f030002;
+        public static final int main=0x7f030003;
+        public static final int videofullscreen=0x7f030004;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -47,7 +54,8 @@ public final class R {
         public static final int hello=0x7f040006;
         public static final int imageCountString=0x7f040007;
         public static final int imageviewtext=0x7f040008;
-        public static final int videoCountString=0x7f040009;
-        public static final int videoviewtext=0x7f04000a;
+        public static final int textViewString=0x7f040009;
+        public static final int videoCountString=0x7f04000a;
+        public static final int videoviewtext=0x7f04000b;
     }
 }
