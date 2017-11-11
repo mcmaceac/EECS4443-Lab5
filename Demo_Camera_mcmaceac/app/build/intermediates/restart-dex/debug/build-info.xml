@@ -6,22 +6,22 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1510355523693"
+    timestamp="1510359647610"
     token="-8394235159722558313"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="203" />
+        duration="208" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="21" />
+        duration="44" />
     <task
         name="verifier"
-        duration="11" />
+        duration="14" />
 
     <artifact
         location="D:\School\EECS4443\EECS4443-Lab5\Demo_Camera_mcmaceac\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -75,7 +75,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1510355523693"
+        timestamp="1510359647610"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\School\EECS4443\EECS4443-Lab5\Demo_Camera_mcmaceac\app\build\intermediates\split-apk\debug\slices\slice_4.apk"

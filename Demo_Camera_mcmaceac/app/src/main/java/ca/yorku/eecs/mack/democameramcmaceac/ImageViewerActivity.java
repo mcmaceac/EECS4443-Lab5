@@ -1,6 +1,7 @@
 package ca.yorku.eecs.mack.democameramcmaceac;
 
 import android.app.Activity;
+import android.app.DialogFragment;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
@@ -23,7 +24,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class ImageViewerActivity extends Activity implements OnTouchListener
+public class ImageViewerActivity extends Activity implements OnTouchListener, DeleteAlertDialog.DeleteAlertListener
 {
 	RelativeLayout container; // parent view (holds the image view)
 	ImageView imageView; // holds the JPG file
@@ -315,16 +316,36 @@ public class ImageViewerActivity extends Activity implements OnTouchListener
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 			case EMAIL:
+				String path = "file://" + directory + File.separator + filenames[index];
 				Intent intent = new Intent(Intent.ACTION_SEND);
 				intent.setType("application/image");
-				String path = "file://" + directory + File.separator + filenames[index];
 				intent.putExtra(Intent.EXTRA_STREAM, Uri.parse(path));
 				startActivity(Intent.createChooser(intent, "Send Email"));
 				break;
 			case DELETE:
+				showDeleteAlertDialog();
 				break;
 		}
 		return true;
+	}
+
+	public void showDeleteAlertDialog() {
+		DialogFragment dialog = new DeleteAlertDialog();
+		dialog.show(getFragmentManager(), "DeleteAlertDialogFragment");
+	}
+
+	@Override
+	public void onDialogPositiveClick(DialogFragment dialog) {
+		//positive means we want to delete the current image
+		File image = new File(directory + File.separator + filenames[index]);
+		if (image.exists()) {
+			image.delete();
+		}
+	}
+
+	@Override
+	public void onDialogNegativeClick(DialogFragment dialog) {
+		//negative means we do not want to delete the image, ie do nothing
 	}
 
 	/*
