@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\School\EECS4443\EECS4443-Lab5\Demo_Camera_mcmaceac\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="58bc93bd94ad1f06a03423f63e61ae797d81bd41">
-        <dex dex="D:\School\EECS4443\EECS4443-Lab5\Demo_Camera_mcmaceac\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9b39a9f655e86d7def2fefab131105f24026fbc7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\School\EECS4443\EECS4443-Lab5\Demo_Camera_mcmaceac\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\School\EECS4443\EECS4443-Lab5\Demo_Camera_mcmaceac\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5baaa6568823e5e5f36fcae571d3111a97aaf77c\classes.dex" />
+        <dex dex="/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9b525827e1c0df047e2a3e479bd94494d9a25d41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89d213fba5afd78d8cbc4de638e331762ac37915">
+        <dex dex="/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_83ae333e394514572836bd0f553e8ad984228fd6/classes.dex" />
     </item>
 
 </items>

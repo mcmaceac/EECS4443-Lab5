@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\right.png",
-        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\drawable-xxhdpi\\right.png"
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-xxhdpi/left.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-xxhdpi/left.png"
     },
     {
-        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\videocamera.png",
-        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\drawable-xxhdpi\\videocamera.png"
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-xxhdpi/right.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-xxhdpi/right.png"
     },
     {
-        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\camera.png",
-        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\drawable-xxhdpi\\camera.png"
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-xxhdpi/videocamera.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-xxhdpi/videocamera.png"
     },
     {
-        "merged": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\left.png",
-        "source": "D:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\src\\main\\res\\drawable-xxhdpi\\left.png"
+        "merged": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/res/merged/debug/drawable-xxhdpi/camera.png",
+        "source": "/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/src/main/res/drawable-xxhdpi/camera.png"
     }
 ]

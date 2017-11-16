@@ -51,6 +51,7 @@ public class DemoCameramcmaceacActivity extends Activity implements OnClickListe
     private static final int VIDEO_CAMERA_MODE = 200;
     private static final int IMAGE_VIEWER_MODE = 300;
     private static final int VIDEO_VIEWER_MODE = 400;
+    private static final int GRID_VIEWER_MODE = 500;
 
     Uri fileUri;
     ImageButton imageCameraButton, videoCameraButton;
@@ -179,7 +180,7 @@ public class DemoCameramcmaceacActivity extends Activity implements OnClickListe
             // start image viewer activity
             Intent i = new Intent(getApplicationContext(), DirectoryContentsActivity.class);
             i.putExtras(b);
-            startActivityForResult(i, IMAGE_VIEWER_MODE);
+            startActivityForResult(i, GRID_VIEWER_MODE);
 
         } else if (v == videoView && videoFilenames.length > 0)
         {
@@ -404,6 +405,17 @@ public class DemoCameramcmaceacActivity extends Activity implements OnClickListe
                 displayVideo();
             } else
                 Log.i(MYDEBUG, "UNKNOWN RESULT CODE (VIDEO)!");
+        }
+        else if (requestCode == GRID_VIEWER_MODE) {
+            imageFilenames = mediaStorageDirectory.list(new MyFilenameFilter(".jpg"));
+            Arrays.sort(imageFilenames);
+
+            imageIdx = imageFilenames.length - 1;
+
+            if (imageFilenames.length == 0) {
+                imageView.setImageBitmap(null);
+            }
+            displayImage();
         }
     }
 

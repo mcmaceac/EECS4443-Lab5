@@ -1,7 +1,7 @@
-#Fri Nov 10 18:01:07 EST 2017
-base.0=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9b39a9f655e86d7def2fefab131105f24026fbc7
+#Tue Nov 14 12:07:04 EST 2017
+base.0=/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_83ae333e394514572836bd0f553e8ad984228fd6
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5baaa6568823e5e5f36fcae571d3111a97aaf77c\\classes.dex
-base.1=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5baaa6568823e5e5f36fcae571d3111a97aaf77c
-file.0=D\:\\School\\EECS4443\\EECS4443-Lab5\\Demo_Camera_mcmaceac\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9b39a9f655e86d7def2fefab131105f24026fbc7\\classes.dex
+file.1=/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9b525827e1c0df047e2a3e479bd94494d9a25d41/classes.dex
+base.1=/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9b525827e1c0df047e2a3e479bd94494d9a25d41
+file.0=/Users/mcmaceac/Documents/School/EECS4443/lab5/Demo_Camera_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_83ae333e394514572836bd0f553e8ad984228fd6/classes.dex

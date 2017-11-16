@@ -98,6 +98,7 @@ public class ImageViewerActivity extends Activity implements OnTouchListener, De
 	@Override
 	public void onWindowFocusChanged(boolean hasFocus)
 	{
+		Log.i("MYDEBUG", "onWindowFocusChanged");
 		displayImage(index);
 	}
 
@@ -181,6 +182,7 @@ public class ImageViewerActivity extends Activity implements OnTouchListener, De
 	@Override
 	public void onRestoreInstanceState(Bundle savedInstanceState)
 	{
+		Log.i("MYDEBUG", "calling onRestoreInstanceState()");
 		super.onRestoreInstanceState(savedInstanceState);
 		index = savedInstanceState.getInt("position");
 		displayImage(index);
@@ -340,6 +342,7 @@ public class ImageViewerActivity extends Activity implements OnTouchListener, De
 		File image = new File(directory + File.separator + filenames[index]);
 		if (image.exists()) {
 			image.delete();
+			finish();
 		}
 	}
 

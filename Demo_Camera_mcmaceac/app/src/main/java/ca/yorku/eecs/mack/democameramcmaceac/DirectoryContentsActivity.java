@@ -117,6 +117,63 @@ public class DirectoryContentsActivity extends Activity implements AdapterView.O
         startActivity(i);
     }
 
+    @Override
+    public void onResume() {
+        Log.i("MYDEBUG", "onResume()");
+        super.onResume();
+        refreshGrid();
+    }
+
+    //used to update the gridview in case an image got deleted
+    public void refreshGrid() {
+
+        // Get a list of files in the directory, sorted by filename. See...
+        files = directory.listFiles(new MyFilenameFilter(".jpg"));
+        Arrays.sort(files, new Comparator<File>()
+        {
+            public int compare(File f1, File f2)
+            {
+                return f1.getName().compareTo(f2.getName());
+            }
+        });
+
+        // make a String array of the filenames
+        filenames = new String[files.length];
+        for (int i = 0; i < files.length; ++i)
+            filenames[i] = files[i].getName();
+
+        // get references to the GridView and TextView
+        gridView = (GridView)findViewById(R.id.gridview);
+        textView = (TextView)findViewById(R.id.textview);
+
+        // display the name of the directory in the text view (minus the full path)
+        String[] s = directory.toString().split(File.separator);
+        textView.setText(s[s.length - 1]);
+
+        // create an ImageAdapter and give it the array of filenames and the directory
+        imageAdapter = new ImageAdapter(this);
+        imageAdapter.setFilenames(filenames, directory);
+
+		/*
+         * Determine the display width and height. The column width is calculated so we have three
+		 * columns when the screen is in portrait mode. We'll keep the same column width in
+		 * landscape mode, but use as many columns as will fit. Including "-12" in the calculation
+		 * accommodates 3 pixels of space on the left and right and between each column.
+		 */
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int columnWidth = dm.widthPixels < dm.heightPixels ? dm.widthPixels / 3 - 12
+                : dm.heightPixels / 3 - 12;
+        imageAdapter.setColumnWidth(columnWidth);
+        gridView.setColumnWidth(columnWidth);
+
+        // give the ImageAdapter to the GridView (and load the images)
+        gridView.setAdapter(imageAdapter);
+
+        // attach a click listener to the GridView (to respond to finger taps)
+        gridView.setOnItemClickListener(this);
+    }
+
     // A filter used with the list method (see above) to return only files with a specified
     // extension (e.g., ".jpg")
     class MyFilenameFilter implements FilenameFilter
